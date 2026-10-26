@@ -4,10 +4,10 @@
 <!-- One sentence: what does this prototype demonstrate? -->
 
 ## Tool Used
-<!-- v0 / Cursor / Lovable / other -->
+Lovable
 
 ## Prototype Link
-<!-- Paste the shareable URL -->
+https://lovable.dev/preview/OYwF2foWbqA86E4YeXyTlwddIlzvJf0J
 
 ## AI Value Archetype
 <!-- Automator / Copilot / Oracle / Creator / Orchestrator -->
