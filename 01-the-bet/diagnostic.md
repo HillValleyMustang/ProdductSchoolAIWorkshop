@@ -47,3 +47,4 @@ Not getting enough people to actually use it on day one, which kills the communi
 
 ## Confidence Level
 <!--** H** / M / L — how confident are you in this bet after the diagnostic? -->
+High
