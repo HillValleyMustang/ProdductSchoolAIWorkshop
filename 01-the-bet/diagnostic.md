@@ -48,3 +48,8 @@ Not getting enough people to actually use it on day one, which kills the communi
 ## Confidence Level
 <!--** H** / M / L — how confident are you in this bet after the diagnostic? -->
 High
+
+
+My weakest axis: Platform Exposure (score: 3/5)
+
+The company that exploits it: Apple (via native Apple Wallet/Passes updates or local curation features) or Nextdoor (via rolling out verified neighborhood sub-networks)
