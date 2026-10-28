@@ -12,47 +12,54 @@
 | **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
 | **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
 
-### Correction Loop - __/5
-**What you capture today:**
-**How it compounds:**
+Correction: 2/5
 
-### Preference Loop - __/5
-**What you capture today:**
-**How it compounds:**
+Reality: Right now, you are relying entirely on manual database updates or basic flag buttons. You don't have automated retraining loops wired up yet.
 
-### Domain Context Loop - __/5
-**What you capture today:**
-**How it compounds:**
+Preference: 2/5
 
-### Network Loop - __/5
-**What you capture today:**
-**How it compounds:**
+Reality: At launch, the app is mostly static directories, feeds, and basic search filtering. True deep personalization across user profiles is minimal.
 
-**Total Flywheel Score: __/20**
-**Weakest Loop:**
-**Fix for weakest loop:**
+Domain Context: 2/5
+
+Reality: Your data silos are initially quite separate—the Grovelands parkrun data, business directory, and community feed don't automatically cross-pollinate intelligence yet.
+
+Network: 3/5
+
+Reality: You have a solid local premise, but on day one, the network effect is practically zero until you break through that initial cold-start problem with your launch strategy.
+
+Weakest Loop: Correction (2/5) and Preference (2/5) — because at the start, you have zero automated loops and basic stateless profiling, making manual oversight your primary bottleneck.
 
 ---
 
 ## Encroachment Threat Assessment
 
-### 1. Platform Encroachment
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+1. Platform Encroachment
+Attacker: Apple (via Apple Maps / Apple Wallet features)
 
-### 2. Vertical Competitor
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+Vector: Native integration of local curation and secure card/loyalty features built right into iOS.
 
-### 3. Adjacent Expansion
-**Attacker:**
-**Vector:**
-**Time-to-threat:**
-**% of value at risk:**
+Time-to-threat: 12–18 months
+
+% of value at risk: 30% (primarily the digital wallet convenience layer)
+
+2. Vertical Competitor
+Attacker: Nextdoor / Neighborhood-specific niche apps
+
+Vector: Launching strict address-verified neighborhood sub-networks with dedicated local safety and trading feeds.
+
+Time-to-threat: 6–12 months
+
+% of value at risk: 40% (direct competition for local community attention and resident posts)
+
+3. Adjacent Expansion
+Attacker: Local independent estate agents (e.g., Lanes or Martyn Gerrard) or regional media groups
+
+Vector: Bundling a "community news & property portal" feature into their existing customer apps as an value-add for local homeowners.
+
+Time-to-threat: 18–24 months
+
+% of value at risk: 25% (encroaching on B2B local sponsorship and real estate listing revenue)
 
 ---
 
