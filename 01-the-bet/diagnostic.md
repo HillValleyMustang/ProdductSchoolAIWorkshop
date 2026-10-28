@@ -3,8 +3,12 @@
 ## Product
 <!-- Name the product you're diagnosing. Real product at your company — not a hypothetical. -->
 
+WiHi
+
 **Product:**
+WiHi Neighbourhood Community App
 **Your Role:**
+Founder
 
 ---
 
