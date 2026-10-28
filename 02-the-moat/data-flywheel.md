@@ -12,23 +12,35 @@
 | **Domain Context** | Does usage in one area improve quality in adjacent areas? | Siloed | Cross-domain transfer | __/5 |
 | **Network** | Does each new user / team make the product better for everyone? | Isolated | Strong network effects | __/5 |
 
-Correction: 2/5
+1. Platform Encroachment
 
-Reality: Right now, you are relying entirely on manual database updates or basic flag buttons. You don't have automated retraining loops wired up yet.
+Attacker: Apple (via native Apple Wallet and local map curation updates)
 
-Preference: 2/5
+Vector: They could natively ship core utility and digital loyalty features directly into iOS.
 
-Reality: At launch, the app is mostly static directories, feeds, and basic search filtering. True deep personalization across user profiles is minimal.
+Time-to-threat: 12–18 months
 
-Domain Context: 2/5
+% of value at risk: ~30% (mainly the frictionless convenience layer of the digital wallet).
 
-Reality: Your data silos are initially quite separate—the Grovelands parkrun data, business directory, and community feed don't automatically cross-pollinate intelligence yet.
+2. Vertical Competitor
 
-Network: 3/5
+Attacker: Nextdoor (or a dedicated neighborhood-focused startup)
 
-Reality: You have a solid local premise, but on day one, the network effect is practically zero until you break through that initial cold-start problem with your launch strategy.
+Vector: Launching strict address-verified local subnets and security alert feeds.
 
-Weakest Loop: Correction (2/5) and Preference (2/5) — because at the start, you have zero automated loops and basic stateless profiling, making manual oversight your primary bottleneck.
+Time-to-threat: 6–12 months
+
+% of value at risk: ~40% (direct competition for local community attention and daily active engagement).
+
+3. Adjacent Expansion
+
+Attacker: Local independent estate agents (like Lanes or Martyn Gerrard) or regional media groups
+
+Vector: Bundling a "community news & local directory" tab into their existing apps as an engagement tool for homeowners.
+
+Time-to-threat: 18–24 months
+
+% of value at risk: ~25% (encroaching on B2B local sponsorship and real estate advertising revenue).
 
 ---
 
