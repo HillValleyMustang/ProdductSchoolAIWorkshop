@@ -47,6 +47,39 @@ Before (traditional SaaS): Margins are typically high (70-80%) because there is 
 
 After (AI-enabled): Net margin shifts to ~80% only because of the cascading strategy, while driving massive organic retention because the AI actually solves real-world friction (plumbers, council reports, local matches) instantly.
 
+
 **Before (traditional SaaS):**
 **After (AI-enabled):**
 **Net margin shift:**
+
+| Feature | Complexity | Model Tier | Cost/Req | Volume % | Weighted |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Omni-Bar Natural Language Routing** | Simple | Small | £0.0015 | 40% | £0.0006 |
+| **Local Business & Tap List Lookups** | Simple | Small | £0.0015 | 20% | £0.0003 |
+| **Basic Utility Status Checks** | Simple | Small | £0.0015 | 10% | £0.00015 |
+| **R21 Vector Matchmaking Engine** | Medium | Mid | £0.0115 | 10% | £0.00115 |
+| **Tradesman Reputation Scoring** | Medium | Mid | £0.0115 | 5% | £0.000575 |
+| **Civic Status Tracking** | Medium | Mid | £0.0115 | 3% | £0.000345 |
+| **Local Event Matching** | Medium | Mid | £0.0115 | 2% | £0.00023 |
+| **Civic Report Structuring & API Formatting** | Complex | Frontier | £0.046 | 6% | £0.00276 |
+| **Multi-Step Tradesman Dispatch Coordination** | Complex | Frontier | £0.046 | 3% | £0.00138 |
+| **Municipal Data Aggregation & Telemetry Formatting** | Complex | Frontier | £0.046 | 1% | £0.00046 |
+| **Blended Total** | | | | **100%** | **£0.00795** |
+
+**How this breaks down:**
+Small Tier Features (Total Volume: 70%): Dominated heavily by the Omni-Bar parser since every single app interaction starts there.
+Mid Tier Features (Total Volume: 20%): Split across vector matching, contractor reputation queries, and event filters.
+Frontier Tier Features (Total Volume: 10%): Concentrated tightly on high-value, complex data structuring (council reports and automated trade booking handshakes).
+
+That pricing assumption sits comfortably in the medium-to-low range—meaning it is lean, highly realistic, and optimized for modern inference providers, but it leaves zero room for architectural bloat.
+
+Here is how those figures stack up against industry realities:
+
+The Small Tier (£0.0015 / ~£0.002 per request): Medium/Low. This is entirely achievable if you are routing routine Omni-Bar strings through efficient open-weights models (like Llama 3 8B) hosted via fast, low-cost inference providers or optimized edge functions. If you tried to route everything through a flagship proprietary model, this would be dangerously low; with a proper triage model, it is spot on.
+
+The Mid Tier (£0.0115 / $0.015 per request): Medium. Vector embedding lookups and multi-attribute matchmaking require a bit more context window and reasoning, putting the cost right where standard mid-tier APIs sit.
+
+The Frontier Tier (£0.046 / $0.060 per request): Medium-High per request, but low in volume. At roughly 4.6p per call, this assumes you are hitting a heavy reasoning model (like Claude or GPT-4 class) for complex data structuring. However, because you've tightly restricted this tier to just 10% of your total volume (civic reports and automated trade contracts), your overall risk is heavily mitigated.
+
+The Verdict:
+Because your blended cost is roughly 0.8p per request, your unit economics are extremely healthy. As long as your cascading strategy holds and you don't let complex reasoning tasks bleed into your 70% triage volume, you won't get blindsided by your cloud bill.
