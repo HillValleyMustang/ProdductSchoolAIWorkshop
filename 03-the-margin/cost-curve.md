@@ -25,10 +25,11 @@ High-capability reasoning model (e.g., Claude or GPT-4 class) for multi-step act
 
 ## Pricing Model
 
-**Current pricing:**
-**Proposed AI pricing:**
-**Model:** seat-based / usage-based / outcome-based / hybrid
-Hybrid (Access flat-fee for merchants + Outcome-based intent routing/council telemetry contracts)
+**Current pricing:** n/a
+**Proposed AI pricing:** Hybrid (Access flat-fee for merchants + Outcome-based intent routing/council telemetry contracts)
+**Model:** seat-based / usage-based / outcome-based / **hybrid**
+
+
 
 ## Stress Tests
 
