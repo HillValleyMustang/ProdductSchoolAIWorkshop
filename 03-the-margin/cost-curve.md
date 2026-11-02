@@ -90,6 +90,11 @@ Because your blended cost is roughly 0.8p per request, your unit economics are e
 * **Institutional Tier (Council):** Phased in as a lagging B2B revenue stream due to 6-18 month public sector procurement cycles.
 * **Compute Protection:** Hard rate-limiting enforced on free-tier edge functions to prevent prompt-abuse and protect gross margins against power-user cost spikes.
 
+* ### Revenue Cohort Architecture
+* **Cohort A: Consumer & Community (Free Tier - ~95% of users):** Residents, local sports clubs, and amateur theaters. Zero subscription cost. Monetized indirectly through network density and high-intent matching volume.
+* **Cohort B: Commercial Nodes (Paid Tier - ~4% of users):** Independent merchants, pubs, and vetted tradesmen paying the £29/mo base access fee + modular placement add-ons.
+* **Cohort C: Institutional/Municipal (Enterprise Tier - ~1% of network):** Enfield Council and local authorities paying for structured, anonymized civic telemetry and automated ticket routing data.
+
 * Pricing Strategy Block, Module 3
 
 Pricing Strategy
