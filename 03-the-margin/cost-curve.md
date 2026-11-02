@@ -83,3 +83,24 @@ The Frontier Tier (£0.046 / $0.060 per request): Medium-High per request, but l
 
 The Verdict:
 Because your blended cost is roughly 0.8p per request, your unit economics are extremely healthy. As long as your cascading strategy holds and you don't let complex reasoning tasks bleed into your 70% triage volume, you won't get blindsided by your cloud bill.
+
+### Pricing Model Risk & Phasing Notes
+* **Consumer Tier:** Always free to maximize local density and network effects in N21.
+* **Merchant Tier:** £29/mo base access, gated until minimum viable vector density (local supply) is established.
+* **Institutional Tier (Council):** Phased in as a lagging B2B revenue stream due to 6-18 month public sector procurement cycles.
+* **Compute Protection:** Hard rate-limiting enforced on free-tier edge functions to prevent prompt-abuse and protect gross margins against power-user cost spikes.
+
+* Pricing Strategy Block, Module 3
+
+Pricing Strategy
+- Strategy posture: Skim
+- Pricing model: Hybrid (base + usage)
+- Unit of work metered: Verified merchant directory slots / structured municipal API telemetry packages
+- Base fee ($/month): 29
+- Price per unit: $15
+- Estimated units/user/month: 2
+- Implied revenue/user/month: $59.00
+
+Decision Note
+Why this pricing structure fits the buyer and the value delivered: ·
+
