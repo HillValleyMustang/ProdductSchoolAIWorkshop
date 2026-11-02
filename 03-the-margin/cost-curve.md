@@ -134,17 +134,9 @@ Why this pricing structure fits the buyer and the value delivered: ·
   * Revenue: £29 base + £15 × 2 outcomes = £59/node
   * COGS: £0.12/user (variable AI cascading COGS)
   * Gross Margin: 99.7%
-* **Net Margin Shift:** Δ margin %: +10.1% | Δ gross $: Significant net expansion
+* **Net Margin Shift:** Margin %: +10.1% | Gross $: Significant net expansion
 * **Narrative:** Shifting from a static directory to an AI-driven intent network with a cascading inference model expands gross margins while capturing high-value merchant access fees and municipal telemetry contracts.
 
-* | Dimension | Before (Traditional SaaS Directory) | After (AI-Powered Intent Utility) |
-| :--- | :--- | :--- |
-| **Primary Mechanic** | Static listings & manual directory browsing | Dynamic, intent-driven AI routing (Search, Report, Connect) |
-| **Revenue Model** | Seat-based / flat software licensing (£29/seat × 50 seats = £1,450/mo) | Hybrid node pricing (£29 base + £15 × 2 modular add-ons = £59/node across commercial/institutional nodes) |
-| **COGS Structure** | Fixed server/hosting costs (£150/mo) | Variable AI cascading compute (£0.00795/req × 15 requests = £0.12/user/mo) |
-| **Gross Margin %** | **89.6%** | **99.7%** (Inference COGS becomes a rounding error against high-value B2B tiers) |
-| **Net Margin Shift** | Baseline operations | **+10.1% margin expansion** with significant net gross dollar scaling |
-| **Core Narrative** | Low-engagement directory competing on features | High-margin local utility powered by an 80/20 cascading model, capturing merchant ARPU and municipal telemetry contracts |
 
 **Competitor Review:**
 "Nextdoor tries to monetize community noise with low-yield digital banner ads, requiring millions of users to break even. WiHi bypasses the social feed entirely. We act as an AI-driven local utility. Because our cascading inference architecture keeps our compute costs under 1p per request, we don't need millions of ad impressions. We capture high-margin revenue directly from commercial nodes (merchants paying for structured intent routing) and municipal institutions (Enfield Council paying for clean civic telemetry)."
