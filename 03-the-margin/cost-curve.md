@@ -109,3 +109,51 @@ Pricing Strategy
 Decision Note
 Why this pricing structure fits the buyer and the value delivered: ·
 
+### Board One-Pager: Before/After Analysis
+
+* **Before (Traditional SaaS Directory):** 
+  * Revenue: £29/seat × 50 seats = £1,450/mo
+  * COGS: £150 (fixed server/hosting costs)
+  * Gross margin: 89.6%
+* **After (AI-Powered Intent Utility):** 
+  * Revenue: £29 base + £15 × 2 outcomes/add-ons = £59/node (across active commercial/institutional nodes)
+  * COGS: £0.00795 blended cost per request × 15 requests/mo per user = £0.12/user (variable AI compute)
+  * Gross margin: 99.7% (The AI inference COGS is practically a rounding error compared to high-value merchant access and municipal telemetry contracts).
+* **Net Margin Shift:** 
+  * $\Delta$ margin %: +10.1% (Pushing near-perfect gross margins because automated cascading inference costs ~£0.008 per request while ARPU scales via modular merchant intent-boosts and council data contracts).
+  * $\Delta$ gross $: Significant net expansion (Moving from static directory fees to active outcome-based node pricing unlocks high-margin B2B enterprise streams without inflating headcount).
+* **Narrative:** "By shifting from a static, low-engagement local directory to an active AI utility powered by a cascading inference architecture (80/20 triage/frontier split), our gross margins expand to nearly 100%. Even though variable AI compute is introduced, our blended COGS stays under 1p per request, while commercial ARPU doubles via modular merchant intent packages and municipal telemetry contracts. We capture massive network value in N21 without breaking unit economics."
+
+### Board One-Pager: Before/After Analysis
+
+* **Before (Traditional SaaS Directory):** 
+  * Revenue: £29/seat × 50 seats = £1,450/mo
+  * COGS: £150 (fixed)
+  * Gross Margin: 89.6%
+* **After (AI-Powered Intent Utility):** 
+  * Revenue: £29 base + £15 × 2 outcomes = £59/node
+  * COGS: £0.12/user (variable AI cascading COGS)
+  * Gross Margin: 99.7%
+* **Net Margin Shift:** Δ margin %: +10.1% | Δ gross $: Significant net expansion
+* **Narrative:** Shifting from a static directory to an AI-driven intent network with a cascading inference model expands gross margins while capturing high-value merchant access fees and municipal telemetry contracts.
+
+* | Dimension | Before (Traditional SaaS Directory) | After (AI-Powered Intent Utility) |
+| :--- | :--- | :--- |
+| **Primary Mechanic** | Static listings & manual directory browsing | Dynamic, intent-driven AI routing (Search, Report, Connect) |
+| **Revenue Model** | Seat-based / flat software licensing (£29/seat × 50 seats = £1,450/mo) | Hybrid node pricing (£29 base + £15 × 2 modular add-ons = £59/node across commercial/institutional nodes) |
+| **COGS Structure** | Fixed server/hosting costs (£150/mo) | Variable AI cascading compute (£0.00795/req × 15 requests = £0.12/user/mo) |
+| **Gross Margin %** | **89.6%** | **99.7%** (Inference COGS becomes a rounding error against high-value B2B tiers) |
+| **Net Margin Shift** | Baseline operations | **+10.1% margin expansion** with significant net gross dollar scaling |
+| **Core Narrative** | Low-engagement directory competing on features | High-margin local utility powered by an 80/20 cascading model, capturing merchant ARPU and municipal telemetry contracts |
+
+**Competitor Review:**
+"Nextdoor tries to monetize community noise with low-yield digital banner ads, requiring millions of users to break even. WiHi bypasses the social feed entirely. We act as an AI-driven local utility. Because our cascading inference architecture keeps our compute costs under 1p per request, we don't need millions of ad impressions. We capture high-margin revenue directly from commercial nodes (merchants paying for structured intent routing) and municipal institutions (Enfield Council paying for clean civic telemetry)."
+
+| Dimension | Nextdoor (Ad-Driven Social Network) | WiHi / Radius21 (AI Utility Network) |
+| :--- | :--- | :--- |
+| **Core Product Experience** | Endless social feed cluttered with neighbor posts, local arguments, and native banner ads. | Instant, deterministic AI utility via Omni-Bar (Search, Report, Connect). Zero feed clutter. |
+| **Monetization Engine** | Impression-based programmatic ads, pay-per-click local deals, and zip-code sponsorships. | Hybrid model: Flat merchant access fees (£29/mo) + modular intent/telemetry add-ons + B2G council data contracts. |
+| **COGS & Infrastructure** | Massive server costs supporting millions of low-intent social scrollers, media uploads, and feed algorithms. | Lean, highly optimized cascading inference (~£0.008 per request) tightly gated by edge rate-limiting. |
+| **Gross Margins** | Lower due to heavy content moderation overhead, ad-tech plumbing, and massive scale dependencies. | **99.7%** (Because high-value B2B/institutional contracts dwarf fractional AI compute costs). |
+| **Value Proposition to Merchant** | "Pay us so your ad sits in a feed next to a neighbor's complaint about parking or lost pets." | "Pay us a predictable base fee to capture high-intent local traffic actively looking for a plumber or pub right now." |
+
