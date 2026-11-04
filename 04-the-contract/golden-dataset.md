@@ -48,7 +48,7 @@
 * **Not Confident (<50%):** Graceful block/fallback routing to structured category selection or community moderation queue.
 * **User Control Surface:**
   * **Users adjust threshold? (N):** We completely abstract raw probability math away from the resident or merchant. Users shouldn't have to fiddle with slider bars or confidence meters; the system handles cascading routing deterministically in the background.
-  * **See AI reasoning? (Y):** Crucial for high-stakes civic actions. When a user submits a report about a pothole or missed bin on Ringwood Way, tapping the "Inspect Payload" drawer lets them view the raw, structured JSON telemetry payload before it transmits to the Enfield Council API, guaranteeing complete transparency.
+  * **See AI reasoning? (Y):** Crucial for high-stakes civic actions. When a user submits a report about a pothole or missed bin on Ringwood Way, tapping the "Inspect Payload" drawer lets them view the raw, structured JSON telemetry payload before it transmits to the Enfield Council API, guaranteeing complete transparency. - but in a nice, readable format. 
   * **Correct & override? (Y):** If the Omni-Bar misinterprets an intent (e.g., classifying a local pub query as a civic report), the user can tap an inline correction chip to instantly toggle the action or shift the map pin, ensuring the UI never traps them in a wrong state.
   * **Corrections -> model? (Y):** Every manual override or corrected classification isn't just a UI fix—it is logged directly to our Supabase feedback database. This creates an automated reinforcement loop that updates vector match weights and retrains our triage routing over time, making the N21 local model smarter with every interaction.
 
