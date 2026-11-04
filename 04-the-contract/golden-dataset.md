@@ -52,23 +52,15 @@
   * **Correct & override? (Y):** If the Omni-Bar misinterprets an intent (e.g., classifying a local pub query as a civic report), the user can tap an inline correction chip to instantly toggle the action or shift the map pin, ensuring the UI never traps them in a wrong state.
   * **Corrections -> model? (Y):** Every manual override or corrected classification isn't just a UI fix—it is logged directly to our Supabase feedback database. This creates an automated reinforcement loop that updates vector match weights and retrains our triage routing over time, making the N21 local model smarter with every interaction.
 
-## Reliability Contract
-
-| Metric | Target | Measurement | Alert Threshold |
-|--------|--------|-------------|-----------------|
-| Accuracy | | | |
-| Hallucination rate | | | |
-| Latency (p95) | | | |
-| Drift velocity | | | |
 
 ## Reliability Contract
 
 | Metric | Target | Measurement | Alert Threshold |
 | :--- | :--- | :--- | :--- |
-| **Accuracy** | `> 95%` | Weekly evaluation run against 150 N21 golden rows using LLM-as-a-Judge semantic rubric[cite: 7, 9]. | `< 92%` $\rightarrow$ Pages on-call engineering[cite: 9]. |
-| **Hallucination rate** | `< 0.5%` | Continuous automated post-flight check scanning for unverified local venues or ungrounded data. | `> 1.0%` $\rightarrow$ Pauses production traffic, auto-rolls back to last good model version[cite: 9]. |
-| **Latency (p95)** | `< 400 ms` | Vercel edge function and Supabase vector search monitoring (Datadog / SRE trace logs)[cite: 9]. | `> 800 ms` for 5 min $\rightarrow$ Triggers PagerDuty[cite: 9]. |
-| **Drift velocity** | `< 0.3% / wk` | 4-week rolling accuracy trend comparing live production traces against golden dataset baseline[cite: 9]. | `> 1% decay/wk` $\rightarrow$ Gold-set audit[cite: 9]. |
+| **Accuracy** | `> 95%` | Weekly evaluation run against 150 N21 golden rows using LLM-as-a-Judge semantic rubric. | `< 92%` $\rightarrow$ Pages on-call engineering. |
+| **Hallucination rate** | `< 0.5%` | Continuous automated post-flight check scanning for unverified local venues or ungrounded data. | `> 1.0%` $\rightarrow$ Pauses production traffic, auto-rolls back to last good model version. |
+| **Latency (p95)** | `< 400 ms` | Vercel edge function and Supabase vector search monitoring (Datadog / SRE trace logs). | `> 800 ms` for 5 min $\rightarrow$ Triggers PagerDuty. |
+| **Drift velocity** | `< 0.3% / wk` | 4-week rolling accuracy trend comparing live production traces against golden dataset baseline. | `> 1% decay/wk` $\rightarrow$ Gold-set audit. |
 
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
