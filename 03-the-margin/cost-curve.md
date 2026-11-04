@@ -149,3 +149,8 @@ Why this pricing structure fits the buyer and the value delivered: ·
 | **Gross Margins** | Lower due to heavy content moderation overhead, ad-tech plumbing, and massive scale dependencies. | **99.7%** (Because high-value B2B/institutional contracts dwarf fractional AI compute costs). |
 | **Value Proposition to Merchant** | "Pay us so your ad sits in a feed next to a neighbor's complaint about parking or lost pets." | "Pay us a predictable base fee to capture high-intent local traffic actively looking for a plumber or pub right now." |
 
+The Contrast with WiHi's Economics
+This data underscores why your board narrative works: Nextdoor generates ~$5–$7 per user per year through massive ad scale and low-yield programmatic impressions. By contrast, WiHi's hybrid model captures £29–£59+ per commercial/institutional node per month via high-intent access fees and municipal telemetry contracts—bypassing the ad-scale trap entirely.
+
+
+
