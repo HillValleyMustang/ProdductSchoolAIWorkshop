@@ -53,8 +53,8 @@
 ## Confidence UX Design
 
 * **Approach:** tiered confidence + human-in-loop trigger
-* **Confident (>90%):** Instant deterministic card render with verified badges and direct action buttons; zero hedge words.
-* **Uncertain (50–90%):** Softened UI with disambiguation chips and clarifying questions (e.g., confirming plumber specialty or venue location).
+* **Confident (>90%):** Instant deterministic card render with verified badges and direct action buttons (e.g., "Open directions" or "Call venue"); zero hedge words.
+* **Uncertain (50–90%):** Softened UI with disambiguation chips and clarifying questions (e.g., confirming plumber specialty or venue location instead of guessing).
 * **Not Confident (<50%):** Graceful block/fallback routing to structured category selection or community moderation queue.
 * **User Control Surface:**
   * Users adjust threshold?: N
@@ -63,6 +63,10 @@
   * Corrections -> model?: Y (Feedback loop logged to Supabase to refine vector match weights)
 
 **User control surface:**
+* Users adjust threshold?: N
+  * See AI reasoning?: Y (Inspect raw structured JSON telemetry payload before council submission)
+  * Correct & override?: Y (Inline correction for misclassified intent or map pins)
+  * Corrections -> model?: Y (Feedback loop logged to Supabase to refine vector match weights)
 
 ## Reliability Contract
 
