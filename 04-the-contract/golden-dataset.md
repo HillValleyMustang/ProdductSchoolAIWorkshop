@@ -61,6 +61,15 @@
 | Latency (p95) | | | |
 | Drift velocity | | | |
 
+## Reliability Contract
+
+| Metric | Target | Measurement | Alert Threshold |
+| :--- | :--- | :--- | :--- |
+| **Accuracy** | `> 95%` | Weekly evaluation run against 150 N21 golden rows using LLM-as-a-Judge semantic rubric[cite: 7, 9]. | `< 92%` $\rightarrow$ Pages on-call engineering[cite: 9]. |
+| **Hallucination rate** | `< 0.5%` | Continuous automated post-flight check scanning for unverified local venues or ungrounded data. | `> 1.0%` $\rightarrow$ Pauses production traffic, auto-rolls back to last good model version[cite: 9]. |
+| **Latency (p95)** | `< 400 ms` | Vercel edge function and Supabase vector search monitoring (Datadog / SRE trace logs)[cite: 9]. | `> 800 ms` for 5 min $\rightarrow$ Triggers PagerDuty[cite: 9]. |
+| **Drift velocity** | `< 0.3% / wk` | 4-week rolling accuracy trend comparing live production traces against golden dataset baseline[cite: 9]. | `> 1% decay/wk` $\rightarrow$ Gold-set audit[cite: 9]. |
+
 ## HITL Architecture
 <!-- When does a human step in? What's the escalation path? -->
 
