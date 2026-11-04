@@ -2,16 +2,6 @@
 
 ## Golden Dataset Spec
 
-| # | Input | Expected Output | Edge Case? | Judge Type |
-|---|-------|----------------|-----------|-----------|
-| 1 | | | Y/N | rule / LLM |
-| 2 | | | Y/N | rule / LLM |
-| 3 | | | Y/N | rule / LLM |
-| 4 | | | Y/N | rule / LLM |
-| 5 | | | Y/N | rule / LLM |
-
-**Adversarial rows included:** __
-**Coverage gaps identified by partner:**
 
 # WiHi (Radius21) Golden Dataset Spec
 **Target v1 Size:** 150 test cases | **Current Baseline:** 10 core cases (7 standard, 3 adversarial)
@@ -57,16 +47,10 @@
 * **Uncertain (50–90%):** Softened UI with disambiguation chips and clarifying questions (e.g., confirming plumber specialty or venue location instead of guessing).
 * **Not Confident (<50%):** Graceful block/fallback routing to structured category selection or community moderation queue.
 * **User Control Surface:**
-  * Users adjust threshold?: N
-  * See AI reasoning?: Y (Inspect raw structured JSON telemetry payload before council submission)
-  * Correct & override?: Y (Inline correction for misclassified intent or map pins)
-  * Corrections -> model?: Y (Feedback loop logged to Supabase to refine vector match weights)
-
-**User control surface:**
-* Users adjust threshold?: N
-  * See AI reasoning?: Y (Inspect raw structured JSON telemetry payload before council submission)
-  * Correct & override?: Y (Inline correction for misclassified intent or map pins)
-  * Corrections -> model?: Y (Feedback loop logged to Supabase to refine vector match weights)
+  * **Users adjust threshold? (N):** We completely abstract raw probability math away from the resident or merchant. Users shouldn't have to fiddle with slider bars or confidence meters; the system handles cascading routing deterministically in the background.
+  * **See AI reasoning? (Y):** Crucial for high-stakes civic actions. When a user submits a report about a pothole or missed bin on Ringwood Way, tapping the "Inspect Payload" drawer lets them view the raw, structured JSON telemetry payload before it transmits to the Enfield Council API, guaranteeing complete transparency.
+  * **Correct & override? (Y):** If the Omni-Bar misinterprets an intent (e.g., classifying a local pub query as a civic report), the user can tap an inline correction chip to instantly toggle the action or shift the map pin, ensuring the UI never traps them in a wrong state.
+  * **Corrections -> model? (Y):** Every manual override or corrected classification isn't just a UI fix—it is logged directly to our Supabase feedback database. This creates an automated reinforcement loop that updates vector match weights and retrains our triage routing over time, making the N21 local model smarter with every interaction.
 
 ## Reliability Contract
 
