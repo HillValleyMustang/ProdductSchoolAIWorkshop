@@ -47,15 +47,46 @@ Map your product's compounding architecture, which loops learn, which just scale
 
 ## Shadow AI Audit
 
-| Tool | Owner | Risk Level | Decision |
-|------|-------|-----------|----------|
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
-| | | H / M / L | keep / govern / kill |
+# WiHi (Radius21) Shadow AI Audit
+*Target: Identifying user workarounds, classification signals, operational frequencies, and build/partner/ignore decisions for N21 community utility flows.*
 
-**Total tools found:**
-**Tools after triage:**
-**Estimated hidden spend:**
+---
+
+## Audit Table
+
+| Workaround | Signal | Frequency | Decision |
+| :--- | :--- | :--- | :--- |
+| **1. Copying WiHi's local council report text and pasting it into external LLMs to rewrite it into formal legal complaints about repeat missed bin collections.** | `workflow` | High | **build** (Add a built-in "Formalize Complaint" tone selector directly into the reporting module). |
+| **2. Taking WiHi merchant search results and pasting them into ChatGPT to build structured weekend errand or shopping itineraries around Green Lanes.** | `workflow` | Medium | **build** (Introduce a native "AI Itinerary / Errand Planner" for local Winchmore Hill stops). |
+| **3. Taking WiHi social connection prompts (like tennis partners or running groups) and using external AI tools to draft multi-person scheduling polls.** | `capability` | Medium | **ignore** (Too niche; best left to external chat apps once the initial connection is made). |
+| **4. Exporting WiHi local tradesman recommendations and running them through external chat tools to cross-reference fair pricing benchmarks in N21.** | `trust` | Medium | **partner** (Embed estimated local pricing tier indicators directly into the tradesman directory). |
+| **5. Pasting WiHi community noticeboard alerts into external chat apps to translate them into different languages for non-English speaking family members.** | `capability` | Low | **ignore** (Already covered by WiHi's native multi-lingual edge translation pipeline). |
+
+---
+
+## Audit Summary & Strategic Actions
+
+### Build Candidates
+* **Formalized Complaint Generator:** Streamline civic reporting by allowing users to instantly refine municipal feedback text without relying on external chat windows.
+* **Local Errand Itinerary Planner:** Convert raw merchant search results into structured, chronological neighborhood stops along Green Lanes and Winchmore Hill Green.
+
+### Partner Integrations
+* **Tradesman Pricing & Trust Benchmarks:** Integrate verified external metrics to boost trust in local recommendations.
+
+### Ignored Workarounds (Out-of-Scope)
+* P2P scheduling polls and translation workarounds remain excluded from direct product scope because external chat apps already solve scheduling and WiHi's native multi-lingual edge translation already handles language barriers.
+
+Stack & Spend Metrics
+
+Total tools found: 14 (across Vercel edge functions, Supabase vector triggers, React Native UI components, Enfield Council APIs, TfL live feeds, Google Places endpoints, GitHub CI/CD evaluation harnesses, and external resident chat/translation apps).
+
+Tools after triage: 6 (retaining core Vercel routing edge runtime, Supabase vector anchors, automated LLM-as-a-judge CI/CD evaluation pipeline, official council API gateway, native multi-lingual translation service, and local merchant directory sync engine).
+
+Estimated hidden spend: £280 / mo (driven by external municipal API rate-limit overages, high-frequency LLM-as-a-judge evaluation token consumption during synthetic variant generation, and Vercel edge execution spikes).
+
+Strategic Takeaway
+
+By capturing these workarounds and tracking hidden spend in GBP, WiHi avoids redundant feature development while funding high-value additions—such as native formal-complaint formatting—that keep local residents inside the platform rather than migrating to generic chat wrappers.
 
 
 # WiHi (Radius21) AI Governance Policy
@@ -108,3 +139,5 @@ Map your product's compounding architecture, which loops learn, which just scale
   * Execute unvalidated SQL queries, modify database schemas, bypass safety guardrails, or automatically submit official council enforcement tickets without user interaction.
 * **Who approves:**
   * System administrators and engineering leads review CI/CD evaluation gate passes, model weight adjustments, and Supabase security policy updates.
+ 
+  
