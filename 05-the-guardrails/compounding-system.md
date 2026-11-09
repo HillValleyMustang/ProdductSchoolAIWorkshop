@@ -8,29 +8,24 @@ Map your product's compounding architecture, which loops learn, which just scale
 
 ### Loop Matrix
 
-| Loop | Input | Output | Compounds? | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| **Recursive Learning** | Production traces & low-confidence user queries | Automated synthetic test variants & golden dataset expansion | Y | active |
-| **Cross-Domain Transfer** | Municipal API error logs & N21 merchant feedback | Cascading prompt weights & routing tier threshold adjustments | Y | active |
-| **Network Intelligence** | Resident reports, community interactions, & social node matching | Verified local knowledge base updates & vector anchor refinement | Y | active |
-
-### Broken Loop Diagnostic
-
-* **Broken Loop:** Cross-Domain Transfer (between external municipal API telemetry and local merchant node matching)
-* **Fix:** Implement automated webhook synchronisation via Supabase database triggers to map external municipal status changes directly into local merchant metadata tables without manual intervention.
-
-### Context Connectivity
-
-* **Where knowledge silos occur:** Between third-party council API real-time feeds and static proprietary N21 merchant directory vectors.
-* **Bridge mechanism:** Unified Vercel edge runtime middleware that merges external API payloads with Supabase vector anchor lookups into a single contextual prompt context window.
-
-### The 3-Month Freeze Test
-* **Hypothesis:** If development and prompt updates are frozen for 3 months (= one frontier cycle)[cite: 5], WiHi continues to maintain accuracy through its automated background LLM-as-a-judge feedback loop and synthetic variant generation pipeline, but gradually experiences local drift on unmanaged seasonal merchant events.
+## Feedback Loops
 
 | Loop | Input | Output | Compounds? | Status |
 |------|-------|--------|-----------|--------|
-| | | | Y/N | active / broken / missing |
-| | | | Y/N | active / broken / missing |
+| Recursive Learning | Live user queries failing LLM-as-a-judge scoring on N21 slang/typos | Automated generation of 8 semantic test variants added to GitHub Golden Dataset | Y | active |
+| Cross-Domain Transfer | Enfield Council API schema rejections & dropped telemetry payloads | Dynamic adjustment of Vercel edge validation rules & routing confidence thresholds | Y | active |
+| Network Intelligence | Resident reports on Green Lanes & Ringwood Way combined with merchant pings | Automated synchronization of verified local merchant vector anchors in Supabase | Y | active |
+
+**Broken loop identified by partner:** Cross-Domain Transfer between external municipal API telemetry updates and static local merchant vector anchors.
+**Fix plan:** Supabase database webhooks that automatically trigger vector re-indexing whenever municipal status changes or merchant profile updates occur, eliminating manual data grooming.
+
+## Context Connectivity
+<!-- How does knowledge flow across teams and domains? Where does it silo? -->
+
+**How knowledge flows:** Between dynamic external council/Google API endpoints and static proprietary N21 community datasets.
+
+**Where it silos:** A unified Vercel edge runtime middleware that merges real-time external API payloads with Supabase vector anchor lookups into a single, cohesive prompt context window before inference.
+
 | | | | Y/N | active / broken / missing |
 
 **Broken loop identified by partner:**
