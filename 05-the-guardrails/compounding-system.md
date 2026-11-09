@@ -56,3 +56,55 @@ Map your product's compounding architecture, which loops learn, which just scale
 **Total tools found:**
 **Tools after triage:**
 **Estimated hidden spend:**
+
+
+# WiHi (Radius21) AI Governance Policy
+*Target: One-page operational compliance for N21 local utility routing, civic reporting, and merchant network nodes.*
+
+---
+
+### 1. Scope
+* **What this policy covers:** All AI routing models, Vercel edge functions, Supabase vector databases, automated LLM-as-a-judge evaluation pipelines, and third-party API payload integrations (Enfield Council, Google Places, TfL) deployed within the WiHi N21 community platform.
+
+### 2. Autonomy Boundaries & Emergency Hard-Stops
+* **OK solo (Autonomous execution):** 
+  * Standard local utility routing (`SEARCH`, non-emergency `REPORT`, `CONNECT`).
+  * Factual retrieval from verified N21 civic metadata and vector anchor databases.
+  * Formatting and synthesizing live external JSON payloads from approved municipal APIs.
+  * Automated synthetic test variant generation for the CI/CD evaluation harness.
+  * Generating pre-filled municipal report payloads and draft text templates (leaving final user review and click-to-submit to the resident).
+* **Needs human / System hard-stop:**
+  * **Emergency & Crisis Intercepts (Zero Autonomy):** Any prompt or input containing emergency descriptors (e.g., gas leaks, active fires, violent crimes, or medical emergencies requiring 999 or 111). The system must completely bypass normal municipal ticket generation and instantly display a hard-stop advisory screen directing the user to dial emergency services immediately.
+  * **Direct Council Ticket Submission:** Automated transmission of municipal complaints or enforcement tickets directly to local authorities on behalf of users is strictly prohibited to eliminate institutional liability and administrative overhead; all submissions require manual user review and execution.
+  * **Direct Data Modifications:** Writing directly to core Supabase user tables or merchant subscription records without explicit authorization gates.
+
+### 3. Escalation Triggers
+* **When humans must enter:**
+  * **Safety & Security Intercepts:** Any prompt triggering adversarial guardrails, prompt injection attempts, or systemic data exfiltration flags.
+  * **Emergency Dispatch Intercepts:** Automatic routing to emergency advisory protocols for 999/111 scenarios.
+  * **Low Confidence Routing:** Any user query scoring below the Vercel edge runtime confidence threshold, requiring fallback clarification prompts or human moderation review.
+
+### 4. Audit Cadence
+* **How often we review:** 
+  * **Real-time:** Continuous automated LLM-as-a-judge scoring on every pull-request and CI/CD deployment against the 225-row Golden Dataset.
+  * **Daily:** Automated log aggregation of Vercel edge traces and Supabase evaluation telemetry.
+  * **Weekly:** Human-in-the-loop review of flagged edge cases, false-positive refusals, and routing drift anomalies.
+  * **Monthly / Quarterly:** Full systematic re-evaluation of tier-routing costs, latency thresholds, and API rate-limit compliance.
+
+### 5. Regulatory Exposure (EU AI Act / GDPR / Sector)
+* **Regimes that apply:** 
+  * **UK GDPR & Data Protection Act 2018:** Strict handling of user chat logs, PII, and merchant subscription data.
+  * **EU AI Act Alignment:** Classified as a **Limited Risk** generative utility interface, requiring transparency notices when users interact with AI routing agents and robust technical documentation against hallucinations.
+  * **Local Municipal Compliance:** Adherence to Enfield Council digital service integration standards for civic reporting telemetry.
+* **Risk tier:** `limited`
+
+---
+
+### Agent Topology
+* **What each agent can do:**
+  * *Router Agent (Small Tier / Edge):* Classifies incoming user intent (`SEARCH`, `REPORT`, `CONNECT`), detects multi-lingual inputs, and screens for prompt injection or emergency overrides.
+  * *Synthesis & Formatting Agent (Mid/Frontier Tier):* Merges live external API JSON payloads with local Supabase vector anchors to construct clean UI cards and structured municipal report payloads.
+* **What it can't do:**
+  * Execute unvalidated SQL queries, modify database schemas, bypass safety guardrails, or automatically submit official council enforcement tickets without user interaction.
+* **Who approves:**
+  * System administrators and engineering leads review CI/CD evaluation gate passes, model weight adjustments, and Supabase security policy updates.
