@@ -75,7 +75,7 @@ Map your product's compounding architecture, which loops learn, which just scale
   * Generating pre-filled municipal report payloads and draft text templates (leaving final user review and click-to-submit to the resident).
 * **Needs human / System hard-stop:**
   * **Emergency & Crisis Intercepts (Zero Autonomy):** Any prompt or input containing emergency descriptors (e.g., gas leaks, active fires, violent crimes, or medical emergencies requiring 999 or 111). The system must completely bypass normal municipal ticket generation and instantly display a hard-stop advisory screen directing the user to dial emergency services immediately.
-  * **Direct Council Ticket Submission:** Automated transmission of municipal complaints or enforcement tickets directly to local authorities on behalf of users is strictly prohibited to eliminate institutional liability and administrative overhead; all submissions require manual user review and execution.
+  * **Direct Council Ticket Submission:** Prevention of automated ticket creation from the user to ensure that the council is not spammed with tickets which are not sent with consideration and human interaction
   * **Direct Data Modifications:** Writing directly to core Supabase user tables or merchant subscription records without explicit authorization gates.
 
 ### 3. Escalation Triggers
